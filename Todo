@@ -1,0 +1,8 @@
+GET Epex Spot Prices from thier Website
+http://www.epexspot.com/de/marktdaten/dayaheadauktion
+
+Crawl it with Beautiful Soup in Python
+Get the Price for each Hour
+
+Save it in InfluxDB
+Visualize in Grafana
