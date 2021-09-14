@@ -1,0 +1,16 @@
+
+#create virtualenv
+$ virtualenv env
+#activate virtualenv
+$ source env/bin/activate
+# install requirements
+$ pip install -r requirements.txt
+#activate virtualenv
+$ source env/bin/activate
+cd tutorial
+# print data to Screen
+scrapy crawl --nolog --output -:json scrape-table
+
+# export data to CSV or JSON file
+scrapy crawl scrape-table -o data.csv
+scrapy crawl scrape-table -o data.json   
