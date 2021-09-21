@@ -9,4 +9,5 @@ cd /Users/beda/Documents/GitHub/epex_spot_crawler/tutorial
 # let the PATH figure out which version to run (based on what your
 # virtualenv has configured).
 # scrapy crawl scrape-table -o data.csv
-scrapy crawl scrape-table -o data/$(date +'%Y-%m-%d').json
+scrapy crawl scrape-table -o data/json/$(date +'%Y-%m-%d').json
+scrapy crawl scrape-table -o data/csv/$(date +'%Y-%m-%d').csv
